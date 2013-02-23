@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07236288150BA2B50006BD61 /* SublimeInPath.icns in Resources */ = {isa = PBXBuildFile; fileRef = 07236287150BA2B50006BD61 /* SublimeInPath.icns */; };
+		07EDF1DE150BA11800689965 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EDF1DD150BA11800689965 /* Cocoa.framework */; };
+		07EDF1E0150BA11800689965 /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07EDF1DF150BA11800689965 /* AppleScriptObjC.framework */; };
+		07EDF1EA150BA11800689965 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07EDF1E8150BA11800689965 /* InfoPlist.strings */; };
+		07EDF1EC150BA11800689965 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07EDF1EB150BA11800689965 /* main.m */; };
+		07EDF1F0150BA11800689965 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07EDF1EE150BA11800689965 /* Credits.rtf */; };
+		07EDF1F2150BA11800689965 /* SublimeInPathAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 07EDF1F1150BA11800689965 /* SublimeInPathAppDelegate.applescript */; };
+		07EDF1F5150BA11800689965 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07EDF1F3150BA11800689965 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07236287150BA2B50006BD61 /* SublimeInPath.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SublimeInPath.icns; sourceTree = "<group>"; };
+		07EDF1D9150BA11800689965 /* SublimeInPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SublimeInPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07EDF1DD150BA11800689965 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07EDF1DF150BA11800689965 /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		07EDF1E2150BA11800689965 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07EDF1E3150BA11800689965 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07EDF1E4150BA11800689965 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07EDF1E7150BA11800689965 /* SublimeInPath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SublimeInPath-Info.plist"; sourceTree = "<group>"; };
+		07EDF1E9150BA11800689965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07EDF1EB150BA11800689965 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07EDF1ED150BA11800689965 /* SublimeInPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SublimeInPath-Prefix.pch"; sourceTree = "<group>"; };
+		07EDF1EF150BA11800689965 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07EDF1F1150BA11800689965 /* SublimeInPathAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = SublimeInPathAppDelegate.applescript; sourceTree = "<group>"; };
+		07EDF1F4150BA11800689965 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07EDF1D6150BA11800689965 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EDF1DE150BA11800689965 /* Cocoa.framework in Frameworks */,
+				07EDF1E0150BA11800689965 /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07EDF1CE150BA11700689965 = {
+			isa = PBXGroup;
+			children = (
+				07236287150BA2B50006BD61 /* SublimeInPath.icns */,
+				07EDF1E5150BA11800689965 /* SublimeInPath */,
+				07EDF1DC150BA11800689965 /* Frameworks */,
+				07EDF1DA150BA11800689965 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07EDF1DA150BA11800689965 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EDF1D9150BA11800689965 /* SublimeInPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07EDF1DC150BA11800689965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EDF1DD150BA11800689965 /* Cocoa.framework */,
+				07EDF1DF150BA11800689965 /* AppleScriptObjC.framework */,
+				07EDF1E1150BA11800689965 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07EDF1E1150BA11800689965 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07EDF1E2150BA11800689965 /* AppKit.framework */,
+				07EDF1E3150BA11800689965 /* CoreData.framework */,
+				07EDF1E4150BA11800689965 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07EDF1E5150BA11800689965 /* SublimeInPath */ = {
+			isa = PBXGroup;
+			children = (
+				07EDF1F1150BA11800689965 /* SublimeInPathAppDelegate.applescript */,
+				07EDF1F3150BA11800689965 /* MainMenu.xib */,
+				07EDF1E6150BA11800689965 /* Supporting Files */,
+			);
+			path = SublimeInPath;
+			sourceTree = "<group>";
+		};
+		07EDF1E6150BA11800689965 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07EDF1E7150BA11800689965 /* SublimeInPath-Info.plist */,
+				07EDF1E8150BA11800689965 /* InfoPlist.strings */,
+				07EDF1EB150BA11800689965 /* main.m */,
+				07EDF1ED150BA11800689965 /* SublimeInPath-Prefix.pch */,
+				07EDF1EE150BA11800689965 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07EDF1D8150BA11800689965 /* SublimeInPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07EDF1F8150BA11800689965 /* Build configuration list for PBXNativeTarget "SublimeInPath" */;
+			buildPhases = (
+				07EDF1D5150BA11800689965 /* Sources */,
+				07EDF1D6150BA11800689965 /* Frameworks */,
+				07EDF1D7150BA11800689965 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SublimeInPath;
+			productName = SublimeInPath;
+			productReference = 07EDF1D9150BA11800689965 /* SublimeInPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07EDF1D0150BA11700689965 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 07EDF1D3150BA11700689965 /* Build configuration list for PBXProject "SublimeInPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07EDF1CE150BA11700689965;
+			productRefGroup = 07EDF1DA150BA11800689965 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07EDF1D8150BA11800689965 /* SublimeInPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07EDF1D7150BA11800689965 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EDF1EA150BA11800689965 /* InfoPlist.strings in Resources */,
+				07EDF1F0150BA11800689965 /* Credits.rtf in Resources */,
+				07EDF1F5150BA11800689965 /* MainMenu.xib in Resources */,
+				07236288150BA2B50006BD61 /* SublimeInPath.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07EDF1D5150BA11800689965 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07EDF1EC150BA11800689965 /* main.m in Sources */,
+				07EDF1F2150BA11800689965 /* SublimeInPathAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07EDF1E8150BA11800689965 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EDF1E9150BA11800689965 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07EDF1EE150BA11800689965 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EDF1EF150BA11800689965 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07EDF1F3150BA11800689965 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07EDF1F4150BA11800689965 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07EDF1F6150BA11800689965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07EDF1F7150BA11800689965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07EDF1F9150BA11800689965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeInPath/SublimeInPath-Prefix.pch";
+				INFOPLIST_FILE = "SublimeInPath/SublimeInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07EDF1FA150BA11800689965 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SublimeInPath/SublimeInPath-Prefix.pch";
+				INFOPLIST_FILE = "SublimeInPath/SublimeInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07EDF1D3150BA11700689965 /* Build configuration list for PBXProject "SublimeInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EDF1F6150BA11800689965 /* Debug */,
+				07EDF1F7150BA11800689965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07EDF1F8150BA11800689965 /* Build configuration list for PBXNativeTarget "SublimeInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07EDF1F9150BA11800689965 /* Debug */,
+				07EDF1FA150BA11800689965 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07EDF1D0150BA11700689965 /* Project object */;
+}

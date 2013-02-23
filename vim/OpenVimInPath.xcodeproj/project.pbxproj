@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07AD3E53150BA63900A04217 /* VimInPath.icns in Resources */ = {isa = PBXBuildFile; fileRef = 07AD3E52150BA63900A04217 /* VimInPath.icns */; };
+		07B6B2CD150BA3DF00794ADA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B6B2CC150BA3DF00794ADA /* Cocoa.framework */; };
+		07B6B2CF150BA3DF00794ADA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B6B2CE150BA3DF00794ADA /* AppleScriptObjC.framework */; };
+		07B6B2D9150BA3DF00794ADA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2D7150BA3DF00794ADA /* InfoPlist.strings */; };
+		07B6B2DB150BA3DF00794ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B6B2DA150BA3DF00794ADA /* main.m */; };
+		07B6B2DF150BA3DF00794ADA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2DD150BA3DF00794ADA /* Credits.rtf */; };
+		07B6B2E1150BA3DF00794ADA /* VimInPathAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 07B6B2E0150BA3DF00794ADA /* VimInPathAppDelegate.applescript */; };
+		07B6B2E4150BA3DF00794ADA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2E2150BA3DF00794ADA /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07AD3E52150BA63900A04217 /* VimInPath.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = VimInPath.icns; sourceTree = "<group>"; };
+		07B6B2C8150BA3DF00794ADA /* OpenVimInPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenVimInPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B6B2CC150BA3DF00794ADA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07B6B2CE150BA3DF00794ADA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		07B6B2D1150BA3DF00794ADA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07B6B2D2150BA3DF00794ADA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07B6B2D3150BA3DF00794ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B6B2D6150BA3DF00794ADA /* OpenVimInPath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenVimInPath-Info.plist"; sourceTree = "<group>"; };
+		07B6B2D8150BA3DF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07B6B2DA150BA3DF00794ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B6B2DC150BA3DF00794ADA /* OpenVimInPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenVimInPath-Prefix.pch"; sourceTree = "<group>"; };
+		07B6B2DE150BA3DF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07B6B2E0150BA3DF00794ADA /* VimInPathAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = VimInPathAppDelegate.applescript; sourceTree = "<group>"; };
+		07B6B2E3150BA3DF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B6B2C5150BA3DF00794ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2CD150BA3DF00794ADA /* Cocoa.framework in Frameworks */,
+				07B6B2CF150BA3DF00794ADA /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B6B2BD150BA3DF00794ADA = {
+			isa = PBXGroup;
+			children = (
+				07AD3E52150BA63900A04217 /* VimInPath.icns */,
+				07B6B2D4150BA3DF00794ADA /* OpenVimInPath */,
+				07B6B2CB150BA3DF00794ADA /* Frameworks */,
+				07B6B2C9150BA3DF00794ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B6B2C9150BA3DF00794ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2C8150BA3DF00794ADA /* OpenVimInPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B6B2CB150BA3DF00794ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2CC150BA3DF00794ADA /* Cocoa.framework */,
+				07B6B2CE150BA3DF00794ADA /* AppleScriptObjC.framework */,
+				07B6B2D0150BA3DF00794ADA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B6B2D0150BA3DF00794ADA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2D1150BA3DF00794ADA /* AppKit.framework */,
+				07B6B2D2150BA3DF00794ADA /* CoreData.framework */,
+				07B6B2D3150BA3DF00794ADA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07B6B2D4150BA3DF00794ADA /* OpenVimInPath */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2E0150BA3DF00794ADA /* VimInPathAppDelegate.applescript */,
+				07B6B2E2150BA3DF00794ADA /* MainMenu.xib */,
+				07B6B2D5150BA3DF00794ADA /* Supporting Files */,
+			);
+			path = OpenVimInPath;
+			sourceTree = "<group>";
+		};
+		07B6B2D5150BA3DF00794ADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2D6150BA3DF00794ADA /* OpenVimInPath-Info.plist */,
+				07B6B2D7150BA3DF00794ADA /* InfoPlist.strings */,
+				07B6B2DA150BA3DF00794ADA /* main.m */,
+				07B6B2DC150BA3DF00794ADA /* OpenVimInPath-Prefix.pch */,
+				07B6B2DD150BA3DF00794ADA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B6B2C7150BA3DF00794ADA /* OpenVimInPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B6B2E7150BA3DF00794ADA /* Build configuration list for PBXNativeTarget "OpenVimInPath" */;
+			buildPhases = (
+				07B6B2C4150BA3DF00794ADA /* Sources */,
+				07B6B2C5150BA3DF00794ADA /* Frameworks */,
+				07B6B2C6150BA3DF00794ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenVimInPath;
+			productName = OpenVimInPath;
+			productReference = 07B6B2C8150BA3DF00794ADA /* OpenVimInPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B6B2BF150BA3DF00794ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07B6B2C2150BA3DF00794ADA /* Build configuration list for PBXProject "OpenVimInPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B6B2BD150BA3DF00794ADA;
+			productRefGroup = 07B6B2C9150BA3DF00794ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B6B2C7150BA3DF00794ADA /* OpenVimInPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B6B2C6150BA3DF00794ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2D9150BA3DF00794ADA /* InfoPlist.strings in Resources */,
+				07B6B2DF150BA3DF00794ADA /* Credits.rtf in Resources */,
+				07B6B2E4150BA3DF00794ADA /* MainMenu.xib in Resources */,
+				07AD3E53150BA63900A04217 /* VimInPath.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B6B2C4150BA3DF00794ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2DB150BA3DF00794ADA /* main.m in Sources */,
+				07B6B2E1150BA3DF00794ADA /* VimInPathAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B6B2D7150BA3DF00794ADA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2D8150BA3DF00794ADA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07B6B2DD150BA3DF00794ADA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2DE150BA3DF00794ADA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07B6B2E2150BA3DF00794ADA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2E3150BA3DF00794ADA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B6B2E5150BA3DF00794ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07B6B2E6150BA3DF00794ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07B6B2E8150BA3DF00794ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenVimInPath/OpenVimInPath-Prefix.pch";
+				INFOPLIST_FILE = "OpenVimInPath/OpenVimInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07B6B2E9150BA3DF00794ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenVimInPath/OpenVimInPath-Prefix.pch";
+				INFOPLIST_FILE = "OpenVimInPath/OpenVimInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B6B2C2150BA3DF00794ADA /* Build configuration list for PBXProject "OpenVimInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B6B2E5150BA3DF00794ADA /* Debug */,
+				07B6B2E6150BA3DF00794ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B6B2E7150BA3DF00794ADA /* Build configuration list for PBXNativeTarget "OpenVimInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B6B2E8150BA3DF00794ADA /* Debug */,
+				07B6B2E9150BA3DF00794ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B6B2BF150BA3DF00794ADA /* Project object */;
+}

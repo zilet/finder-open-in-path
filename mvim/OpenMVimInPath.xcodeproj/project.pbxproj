@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B6B2A0150BA3BF00794ADA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B6B29F150BA3BF00794ADA /* Cocoa.framework */; };
+		07B6B2A2150BA3BF00794ADA /* AppleScriptObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07B6B2A1150BA3BF00794ADA /* AppleScriptObjC.framework */; };
+		07B6B2AC150BA3BF00794ADA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2AA150BA3BF00794ADA /* InfoPlist.strings */; };
+		07B6B2AE150BA3BF00794ADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07B6B2AD150BA3BF00794ADA /* main.m */; };
+		07B6B2B2150BA3BF00794ADA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2B0150BA3BF00794ADA /* Credits.rtf */; };
+		07B6B2B4150BA3BF00794ADA /* MVimInPathAppDelegate.applescript in Sources */ = {isa = PBXBuildFile; fileRef = 07B6B2B3150BA3BF00794ADA /* MVimInPathAppDelegate.applescript */; };
+		07B6B2B7150BA3BF00794ADA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2B5150BA3BF00794ADA /* MainMenu.xib */; };
+		07B6B2F2150BA55E00794ADA /* MVimInPath.icns in Resources */ = {isa = PBXBuildFile; fileRef = 07B6B2F1150BA55E00794ADA /* MVimInPath.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B6B29B150BA3BF00794ADA /* OpenMVimInPath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenMVimInPath.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B6B29F150BA3BF00794ADA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		07B6B2A1150BA3BF00794ADA /* AppleScriptObjC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptObjC.framework; path = System/Library/Frameworks/AppleScriptObjC.framework; sourceTree = SDKROOT; };
+		07B6B2A4150BA3BF00794ADA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		07B6B2A5150BA3BF00794ADA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		07B6B2A6150BA3BF00794ADA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07B6B2A9150BA3BF00794ADA /* OpenMVimInPath-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OpenMVimInPath-Info.plist"; sourceTree = "<group>"; };
+		07B6B2AB150BA3BF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07B6B2AD150BA3BF00794ADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07B6B2AF150BA3BF00794ADA /* OpenMVimInPath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OpenMVimInPath-Prefix.pch"; sourceTree = "<group>"; };
+		07B6B2B1150BA3BF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		07B6B2B3150BA3BF00794ADA /* MVimInPathAppDelegate.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = MVimInPathAppDelegate.applescript; sourceTree = "<group>"; };
+		07B6B2B6150BA3BF00794ADA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		07B6B2F1150BA55E00794ADA /* MVimInPath.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MVimInPath.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07B6B298150BA3BF00794ADA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2A0150BA3BF00794ADA /* Cocoa.framework in Frameworks */,
+				07B6B2A2150BA3BF00794ADA /* AppleScriptObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B6B290150BA3BE00794ADA = {
+			isa = PBXGroup;
+			children = (
+				07B6B2F1150BA55E00794ADA /* MVimInPath.icns */,
+				07B6B2A7150BA3BF00794ADA /* OpenMVimInPath */,
+				07B6B29E150BA3BF00794ADA /* Frameworks */,
+				07B6B29C150BA3BF00794ADA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07B6B29C150BA3BF00794ADA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B29B150BA3BF00794ADA /* OpenMVimInPath.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07B6B29E150BA3BF00794ADA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B29F150BA3BF00794ADA /* Cocoa.framework */,
+				07B6B2A1150BA3BF00794ADA /* AppleScriptObjC.framework */,
+				07B6B2A3150BA3BF00794ADA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07B6B2A3150BA3BF00794ADA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2A4150BA3BF00794ADA /* AppKit.framework */,
+				07B6B2A5150BA3BF00794ADA /* CoreData.framework */,
+				07B6B2A6150BA3BF00794ADA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		07B6B2A7150BA3BF00794ADA /* OpenMVimInPath */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2B3150BA3BF00794ADA /* MVimInPathAppDelegate.applescript */,
+				07B6B2B5150BA3BF00794ADA /* MainMenu.xib */,
+				07B6B2A8150BA3BF00794ADA /* Supporting Files */,
+			);
+			path = OpenMVimInPath;
+			sourceTree = "<group>";
+		};
+		07B6B2A8150BA3BF00794ADA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07B6B2A9150BA3BF00794ADA /* OpenMVimInPath-Info.plist */,
+				07B6B2AA150BA3BF00794ADA /* InfoPlist.strings */,
+				07B6B2AD150BA3BF00794ADA /* main.m */,
+				07B6B2AF150BA3BF00794ADA /* OpenMVimInPath-Prefix.pch */,
+				07B6B2B0150BA3BF00794ADA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07B6B29A150BA3BF00794ADA /* OpenMVimInPath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07B6B2BA150BA3BF00794ADA /* Build configuration list for PBXNativeTarget "OpenMVimInPath" */;
+			buildPhases = (
+				07B6B297150BA3BF00794ADA /* Sources */,
+				07B6B298150BA3BF00794ADA /* Frameworks */,
+				07B6B299150BA3BF00794ADA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenMVimInPath;
+			productName = OpenMVimInPath;
+			productReference = 07B6B29B150BA3BF00794ADA /* OpenMVimInPath.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07B6B292150BA3BE00794ADA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 07B6B295150BA3BE00794ADA /* Build configuration list for PBXProject "OpenMVimInPath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07B6B290150BA3BE00794ADA;
+			productRefGroup = 07B6B29C150BA3BF00794ADA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07B6B29A150BA3BF00794ADA /* OpenMVimInPath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07B6B299150BA3BF00794ADA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2AC150BA3BF00794ADA /* InfoPlist.strings in Resources */,
+				07B6B2B2150BA3BF00794ADA /* Credits.rtf in Resources */,
+				07B6B2B7150BA3BF00794ADA /* MainMenu.xib in Resources */,
+				07B6B2F2150BA55E00794ADA /* MVimInPath.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07B6B297150BA3BF00794ADA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B6B2AE150BA3BF00794ADA /* main.m in Sources */,
+				07B6B2B4150BA3BF00794ADA /* MVimInPathAppDelegate.applescript in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07B6B2AA150BA3BF00794ADA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2AB150BA3BF00794ADA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07B6B2B0150BA3BF00794ADA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2B1150BA3BF00794ADA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		07B6B2B5150BA3BF00794ADA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07B6B2B6150BA3BF00794ADA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07B6B2B8150BA3BF00794ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		07B6B2B9150BA3BF00794ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		07B6B2BB150BA3BF00794ADA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenMVimInPath/OpenMVimInPath-Prefix.pch";
+				INFOPLIST_FILE = "OpenMVimInPath/OpenMVimInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07B6B2BC150BA3BF00794ADA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OpenMVimInPath/OpenMVimInPath-Prefix.pch";
+				INFOPLIST_FILE = "OpenMVimInPath/OpenMVimInPath-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07B6B295150BA3BE00794ADA /* Build configuration list for PBXProject "OpenMVimInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B6B2B8150BA3BF00794ADA /* Debug */,
+				07B6B2B9150BA3BF00794ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07B6B2BA150BA3BF00794ADA /* Build configuration list for PBXNativeTarget "OpenMVimInPath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07B6B2BB150BA3BF00794ADA /* Debug */,
+				07B6B2BC150BA3BF00794ADA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07B6B292150BA3BE00794ADA /* Project object */;
+}
