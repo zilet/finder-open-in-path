@@ -10,7 +10,7 @@ In order to make the use of this you will need to create application with the he
 There are couple of more apps that I like using it this way so I created few more scripts and bundled apps for it:
 
 * ITerm 2
-* Sublime Text 2
+* Sublime Text 2 & 3
 * MacVim
 * Vim
 
