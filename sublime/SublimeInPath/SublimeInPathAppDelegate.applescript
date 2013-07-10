@@ -24,7 +24,13 @@ script SublimeInPathAppDelegate
                 end if
                 set myPath to quoted form of POSIX path of (myItem as string)
                 
-                set theCommand to "open -a 'Sublime Text 2'  " & myPath
+                set theCommand to "open -a 'Sublime Text'  " & myPath
+                try
+                    do shell script theCommand
+                    on error errStr number errorNumber
+                    set theCommand to "open -a 'Sublime Text 2'  " & myPath
+                end
+
                 do shell script theCommand
                 on error errStr number errorNumber
                 display dialog "Whooa.. something went wrong. Please select a file or folder"
