@@ -16,8 +16,8 @@ There are couple of more apps that I like using it this way so I created few mor
 
 And here is how to install these sweeties:
 
-* Get the code
-* Select apps you want and move application files to your Applications folder (e.g. /Applications)
+* Get the zips from dist folder
+* Unpack and select apps you want and move application files to your Applications folder (e.g. /Applications)
 * Then pick up the application icon and drag it to finders toolbar
 * There you go.. all set up.. enjoy!
 
