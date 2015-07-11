@@ -28,5 +28,5 @@ This guide with pictures is available [on my blog].
  [Terminal app]: http://code.google.com/p/cdto/
  [ITerm]:http://www.iterm2.com/
  [ITerm in path]:https://gist.github.com/905546
- [on my blog]:http://blog.miloszikic.com/2012/03/os-x-finder-open-in-path-shortcuts-for.html
+ [on my blog]:http://miloszikic.com/finder/osx/mac/2012/03/03/os-x-finder-open-in-path-shortcuts-for/
 
